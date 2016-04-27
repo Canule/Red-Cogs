@@ -423,6 +423,6 @@ def setup(bot):
 	if tabulateAvailable is False:
 		raise RuntimeError("You don't have tabulate installed, run\n```pip3 install tabulate```And try again")
 		return
-	check_files()
 	check_folders()
+	check_files()
 	bot.add_cog(Dota(bot))
